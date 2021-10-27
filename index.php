@@ -42,8 +42,12 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
+
     <form action="" method="post">
-        <center>
+        <center>  
+            <label >-----formulaire d'inscription-----</label>
+            <br>
+            <br>
             <label for="identifiant">Identifiant : </label><br><br>
             <input type="text" name="identifiant" id="identifiant" required><br><br>
             <label for="email">Email : </label><br><br>
