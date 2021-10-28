@@ -22,7 +22,7 @@ if (isset($_POST['login'])) {
         $from = "noreply@domain.com";
         $headers = "From:" . $from;
         
-        mail ($fetch['email'] ,"Code" , $code, $headers);
+        mail ($fetch['email'] ,"Code de verification" , "votre code de verification est: ".$code, $headers);
 
         header('location: verification.php');
 
